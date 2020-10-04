@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Tom Jackson',
+  subtitle: 'JS Developer',
   cta: '',
 };
 
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Project1.png',
     title: '',
     info: '',
     info2: '',
@@ -37,11 +37,20 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'Project2.png',
     title: '',
     info: '',
     info2: '',
     url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Project3.png',
+    title: '',
+    info: '',
+    info2: '',
+    url: 'https://tom0901.github.io/React-Website/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
